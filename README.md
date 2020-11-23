@@ -1,4 +1,8 @@
-# AP-AUTH Databse
+# alpha-auth-db
+
+see https://github.com/ash-uncover/alpha-auth
+
+see https://github.com/ash-uncover/alpha-auth-api
 
 ## Prerequisite
 
