@@ -46,6 +46,7 @@ db.accounts.insert({
 db.users.insert({
   id: "user1",
   name: "User A",
+  description: "Bonjour je suis le user A",
   relations: [
     {
       userId: "user2",
@@ -60,6 +61,7 @@ db.users.insert({
 db.users.insert({
   id: "user2",
   name: "User B",
+  description: "Bonjour je suis le user B",
   relations: [
     {
       userId: "user1",
@@ -70,6 +72,7 @@ db.users.insert({
 db.users.insert({
   id: "user3",
   name: "User C",
+  description: "Bonjour je suis le user C",
   relations: [
     {
       userId: "user1",
@@ -80,8 +83,10 @@ db.users.insert({
 db.users.insert({
   id: "user4",
   name: "User D",
+  description: "Bonjour je suis le user D",
 })
 db.users.insert({
   id: "user5",
   name: "User E",
+  description: "Bonjour je suis le user E",
 })
