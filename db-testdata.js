@@ -144,3 +144,24 @@ db.relations.insert({
   relationId: "user1",
   status: "ACTIVE",
 })
+
+// THREADS //
+
+db.threads.insert({
+  "id":"thread12",
+  "name":"",
+  "type":"DIRECT",
+  "userId":["user1","user2"]
+})
+db.threads.insert({
+  "id":"thread13",
+  "name":"",
+  "type":"DIRECT",
+  "userId":["user1","user2"]
+})
+db.threads.insert({
+  "id":"thread15",
+  "name":"",
+  "type":"DIRECT",
+  "userId":["user1","user5"]
+})
