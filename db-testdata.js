@@ -48,38 +48,100 @@ db.accounts.insert({
   type: "AP",
   status: "ACTIVE",
 })
+db.accounts.insert({
+  id: "account7",
+  username: "g",
+  password: "g",
+  userId: "user7",
+  type: "AP",
+  status: "ACTIVE",
+})
+db.accounts.insert({
+  id: "account8",
+  username: "h",
+  password: "h",
+  userId: "user8",
+  type: "AP",
+  status: "ACTIVE",
+})
+db.accounts.insert({
+  id: "account9",
+  username: "i",
+  password: "i",
+  userId: "user9",
+  type: "AP",
+  status: "ACTIVE",
+})
+db.accounts.insert({
+  id: "account10",
+  username: "j",
+  password: "j",
+  userId: "user10",
+  type: "AP",
+  status: "ACTIVE",
+})
 
 // USERS //
 
 db.users.insert({
   id: "user1",
   name: "User A",
+  avatar: "images/userA.jpg",
   description: "Bonjour je suis le user A",
 })
 db.users.insert({
   id: "user2",
   name: "User B",
+  avatar: "images/userB.jpg",
   description: "Bonjour je suis le user B",
 })
 db.users.insert({
   id: "user3",
   name: "User C",
+  avatar: "images/userC.jpg",
   description: "Bonjour je suis le user C",
 })
 db.users.insert({
   id: "user4",
   name: "User D",
+  avatar: "images/userD.jpg",
   description: "Bonjour je suis le user D",
 })
 db.users.insert({
   id: "user5",
   name: "User E",
+  avatar: "images/userE.jpg",
   description: "Bonjour je suis le user E",
 })
 db.users.insert({
   id: "user6",
   name: "User F",
+  avatar: "images/userF.jpg",
   description: "Bonjour je suis le user F",
+})
+db.users.insert({
+  id: "user7",
+  name: "User G",
+  avatar: "images/userG.jpg",
+  description: "Bonjour je suis le user G",
+})
+db.users.insert({
+  id: "user8",
+  name: "User H",
+  avatar: "images/userH.jpg",
+  description: "Bonjour je suis le user H",
+})
+db.users.insert({
+  id: "user9",
+  name: "User I",
+  avatar: "images/userI.jpg",
+  description: "Bonjour je suis le user I",
+})
+db.users.insert({
+  id: "user10",
+  name: "User J",
+  avatar: "images/userJ.jpg",
+  description: "Bonjour je suis le user J",
 })
 
 // RELATIONS //
