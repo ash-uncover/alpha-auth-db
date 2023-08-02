@@ -1,3 +1,4 @@
+db.disableFreeMonitoring()
 db.dropDatabase()
 
 db.accounts.drop()
