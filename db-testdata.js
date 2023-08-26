@@ -146,6 +146,7 @@ db.users.insertOne({
 
 // RELATIONS //
 
+/*
 db.relations.insertOne({
   id: "relationship1-2",
   userId: "user1",
@@ -227,3 +228,4 @@ db.threads.insertOne({
   "type":"DIRECT",
   "userId":["user1","user5"]
 })
+*/
