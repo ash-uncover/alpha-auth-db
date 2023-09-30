@@ -1,5 +1,11 @@
 # alpha-auth-db
 
+Available on [Mongo Atlas](https://cloud.mongodb.com/v2/5e3a754af2a30b7edd24a0f3#/clusters/detail/ap-auth)
+
+## Content
+
+This project contains helper to setup a local mongo database usable for the alpha-auth project.
+
 ## Ecosystem
 
 | Repository   | Description |
