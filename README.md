@@ -17,13 +17,13 @@ This project contains helper to setup a local mongo database usable for the alph
 
 ## Prerequisite
 
-We use Mongo DB as our core database system.
+Mongo DB is used as the core database technology.
 
-Our production and test systems are using Mongo Atlas instances but one can install a local
+Production and test systems are using Mongo Atlas instances but one can install a local
 
 ## Scripts
 
-We provide scripts to reset the database and fill it with some test data
+Scripts are provided to reset the database and fill it with some test data
 
 To drop all the collection and rebuild their indexes:
 
